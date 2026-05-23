@@ -1,0 +1,18 @@
+import { BrowserRouter, Navigate, Routes, Route } from 'react-router-dom'
+import { Home } from './pages/Home'
+import { ImportWizard } from './pages/ImportWizard'
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/import/:sheetId" element={<ImportWizard />} />
+        <Route path="/import/users" element={<Navigate to="/import/member_list" replace />} />
+        <Route path="/import/purchases" element={<Navigate to="/import/orders" replace />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App

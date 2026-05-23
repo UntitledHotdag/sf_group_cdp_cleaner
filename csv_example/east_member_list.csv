@@ -1,0 +1,4 @@
+user_membership_id,user_id,user_name,member_first_name,member_last_name,member_email,member_role,member_last_active,membership_plan_id,membership_plan,membership_plan_slug,membership_status,has_access,product_id,order_id,member_since,membership_expiration,id_num,member_id,b-day,t-shirt-size,blessing
+5052,644,yuone1007207,*晉,游,yuo********@gmail.com,customer,2025-12-09,3020,下忍,genin,active,是,3023,4747,2025-08-22 0:00:00,2026-08-31 0:00:00,H1********,TheOne*****,1985-**-**,2XL,願世星兔、恩惠兔、小雲兔越來越受歡迎
+3340,260,pcshkidds,*宇,陳,pcs********@gmail.com,customer,2026-02-25,3022,上忍,jounin,active,是,3025,3339,2025-08-22 0:00:00,2026-08-31 0:00:00,C1********,影*****,1984-**-**,M,我愛OM三姐妹
+3278,266,a0966529201,*君,陳,a09********@gmail.com,customer,2026-02-12,3022,上忍,jounin,active,是,3025,3276,2025-08-22 0:00:00,2026-08-31 0:00:00,P2********,90*****,2001-**-**,S,加油，希望拿到冠軍

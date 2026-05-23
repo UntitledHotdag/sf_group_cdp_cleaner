@@ -1,0 +1,2 @@
+order_number,order_date,status,total,cust_id,mobile,email,buyer,sku,product_name,spec,qty,list_price,sale_price,subtotal,ship_addr,category
+ORD-100,2025-01-06,success,7000,M001,0912345678,alice@example.com,Alice,SKU-A,智慧型手機,128GB,2,4000,3500,5999.99,台北市信義區,手機
