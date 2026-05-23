@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { schemas } from '../schemas'
 import { SheetTypeCard } from '../components/SheetTypeCard'
 
@@ -16,6 +17,25 @@ export function Home() {
       </header>
 
       <main className="mx-auto max-w-4xl px-6 py-10">
+        <Link
+          to="/guide/tags"
+          className="mb-8 flex items-start gap-4 rounded-xl border border-indigo-200 bg-indigo-50/60 p-5 transition hover:border-indigo-300 hover:bg-indigo-50"
+        >
+          <span className="text-2xl" aria-hidden>
+            🏷️
+          </span>
+          <div>
+            <h2 className="font-semibold text-indigo-900">How tagging works</h2>
+            <p className="mt-1 text-sm text-indigo-800/90">
+              Learn how to turn purchase records and member data into tags for segmented marketing
+              — with examples for sports teams (tickets, merch, frequency, and more).
+            </p>
+            <span className="mt-2 inline-block text-sm font-medium text-indigo-600">
+              Read the guide →
+            </span>
+          </div>
+        </Link>
+
         <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
           Choose a sheet type
         </h2>

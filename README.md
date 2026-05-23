@@ -10,7 +10,7 @@ A browser-only tool to map messy source CSV columns to the format accepted by th
 
 All parsing, mapping, validation, and export run locally in your browser. No data is sent to a server.
 
-Product requirements and design decisions are documented in [docs/PDR.md](docs/PDR.md).
+Product requirements: [PRD.md](PRD.md) (segmented marketing & tagging). Technical design: [docs/PDR.md](docs/PDR.md).
 
 ## Quick start
 
@@ -20,6 +20,10 @@ npm run dev
 ```
 
 Open the URL shown in the terminal (typically `http://localhost:5173`).
+
+## Tagging guide
+
+Learn how member + order data becomes segmentation tags: **[How tagging works](/guide/tags)** (also linked from the home page).
 
 ## Workflow
 
